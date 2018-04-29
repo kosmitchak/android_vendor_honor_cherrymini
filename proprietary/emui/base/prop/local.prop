@@ -28,4 +28,9 @@ ro.config.hw_allow_rs_mms=true
 ro.config.hw_hungtasklist=whitelist,system_server,SurfaceFlinger
 ro.config.hw_power_saving=true
 ro.config.attach_ip_type=IPV4V6
-
+#DTS2017062607102 sunshan WX368293 20170707 begin
+ro.com.google.clientidbase.am=android-huawei
+ro.com.google.clientidbase.ms=android-huawei
+ro.com.google.clientidbase=android-huawei
+ro.com.google.clientidbase.wal=android-huawei
+#DTS2017062607102 sunshan WX368293 20170707 end
