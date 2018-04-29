@@ -12,8 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-PRODUCT_COPY_FILES += \
-	$(call find-copy-subdir-files,*,vendor/huawei/alice/proprietary/,system/)
+PRODUCT_PACKAGES += \
+    supl20Service
 
-PRODUCT_COPY_FILES += \
-	$(call find-copy-subdir-files,*,vendor/huawei/alice/root/,root/)
+$(call inherit-product, vendor/honor/cherrymini/cherrymini-vendor-blobs.mk)
